@@ -209,3 +209,35 @@ header {
     letter-spacing: 1px;
     margin-top: -30px;
 }
+#MODEL-4 {
+    width: 100%;
+    height: 960px;
+}
+.models-img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 960px;
+}
+#main-heading4 {
+    width: 25%;
+    height: 150px;
+    position: absolute;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -38%;
+}
+.heading-4 {
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+.subheading-4 {
+    font-size: 18px;
+    color: #525252;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-top: -30px;
+}
