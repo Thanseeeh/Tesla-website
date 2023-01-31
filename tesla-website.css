@@ -4,7 +4,7 @@ body {
 header {
     padding-bottom: 60px;
 }
-.header {
+.main-header {
     width: 100%;
     height: 60px;
     background: white;
@@ -17,6 +17,10 @@ header {
     margin-top: 22px;
     color: rgb(86, 86, 86);
 }
+#MODEL-1 {
+    width: 100%;
+    height: 900px;
+}
 .model3-img {
     background-position: center;
     background-size: cover;
@@ -27,7 +31,7 @@ header {
 #nav-bar {
     width: 100%;
     height: 60px;
-    position: relative;
+    position: fixed;
     float: left;
 }
 .tesla-logo {
@@ -85,10 +89,10 @@ header {
     float: left;
     margin-top: 1.5%;
 }
-#main-heading {
+#main-heading1 {
     width: 25%;
     height: 150px;
-    position: fixed;
+    position: absolute;
     text-align: center;
     margin-left: 40%;
     margin-top: 12%;
@@ -137,4 +141,36 @@ header {
     font-size: 16px;
     font-weight: 600;
     color: #4a4a4aeb;
+}
+#MODEL-2 {
+    width: 100%;
+    height: 900px;
+}
+.modely-img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 960px;
+}
+#main-heading2 {
+    width: 25%;
+    height: 150px;
+    position: absolute;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -38%;
+}
+.heading-2 {
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+.subheading-2 {
+    font-size: 18px;
+    color: #525252;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-top: -30px;
 }
